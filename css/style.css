@@ -1,0 +1,12 @@
+.wrapper__item {
+  margin: 1%;
+  height: 200px;
+  width: 200px;
+  background-color: #00ff95;
+  border: 10px solid black;
+}
+
+.wrapper__item--circle {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

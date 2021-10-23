@@ -1,0 +1,19 @@
+$color_main: rgb(0, 255, 149);
+$color_darker: black;
+$size: 200px;
+
+@mixin border ($size) {
+    border-radius: 100;
+}
+
+.wrapper__item {
+    margin: 1%;
+    height: $size;
+    width: $size;
+    background-color: $color_main;
+    border: 10px solid $color_darker;
+}
+
+.wrapper__item--circle {
+    border-radius: 50%;
+}
